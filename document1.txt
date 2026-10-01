@@ -1,5 +1,5 @@
 def partition(l, r, nums):
-    # Branch2: This function needs to be updated.
+    # Branch3: This function has been updated on October 1, 2026.
     pivot, ptr = nums[r], l
     for i in range(l, r):
         if nums[i] <= pivot:
