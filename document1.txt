@@ -6,7 +6,7 @@ def partition(l, r, nums):
             # Swapping values smaller than the pivot to the front
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1
-    # Main: No comment
+    # Branch3: Request for efficiency test
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
