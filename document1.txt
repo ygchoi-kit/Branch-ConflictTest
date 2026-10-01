@@ -6,7 +6,7 @@ def partition(l, r, nums):
             # Swapping values smaller than the pivot to the front
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1
-    # Finally swapping the last element with the pointer indexed number
+    # Main: No comment
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
